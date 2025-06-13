@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adi's Kitchen</title>
+        <style>
+            body{
+                background-color: #fcffd0;
+            }
+            li {
+                display: inline;
+            }
+            p{
+                font-size: 17px;
+                width: 90%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            i{
+                font-family:'Times New Roman', Times, serif;
+            }
+            main{
+                margin: 20px auto;
+                padding: 0 10px;
+                max-width: 800px;
+                box-sizing: border-box;
+            }
+            .menu-section{
+                padding-left: 5%;
+                padding-right: 5%;
+                background-color: #66b3cc;
+            }
+            figure{
+                /*padding-left: 30%;*/
+                justify-content: center;
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            #header-img{
+                width: 40%;
+                height: 150px;
+            }
+            hr{
+                width: 80%;
+            }
+            .menu-item-img{
+                width: 280px;
+                height: 290px;
+            }
+            .menu-item-article {
+                padding-right: 10%; 
+                padding-left: 10%;
+            }
+            label, input, textarea{
+                padding: 4px;
+            }
+            #order-section{
+                padding-left: 10%; 
+                padding-right: 10%; 
+                border-color: black; 
+                border-radius: 5px; 
+                border: solid 2px;
+                background-color: #ffe1fe;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- Header section of the Restaurant Menu-->
+        <header>
+            <img id="header-img" class="logo" alt="Food Banner" src="https://www.shutterstock.com/image-photo/indian-food-banner-over-flag-260nw-2343629763.jpg">
+            <h1>Adi's Kitchen</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order-form">Order</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Section of the Restaurant Menu-->        
+        <main>
+            <!-- Menu Section -->
+            <section class="menu-section">
+                <h2 id="menu">Menu</h2>
+                <article class="menu-item-article">
+                    <figure>
+                        <img class="menu-item-img" src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/dosa-recipe.jpg" alt="Plain Dosa"/>
+                    </figure>
+                    <h3>Plain Dosa</h3>
+                    <p>
+                        Plain Dosa is a classic South Indian dish that is a thin, crispy pancake made from a fermented batter of rice and black gram. It is served hot, often with chutney and sambar. <br>
+                        The dish is known for its simplicity and versatility, and it can be enjoyed for breakfast, lunch, or dinner. <br>
+                        <i>Price: $9.49 </i>
+                    </p>
+                </article>
+                <hr>
+
+                <article class="menu-item-article">
+                    <figure>
+                        <img class="menu-item-img" src="https://ranveerbrar.com/wp-content/uploads/2021/02/Masala-dosa-scaled.jpg" alt="Masala Dosa"/>
+                    </figure>
+                    <h3>Masala Dosa</h3>
+                    <p>
+                        Masala dosa is a popular South Indian dish, typically made from a fermented batter of rice and legumes, such as black gram, along with various spices like fenugreek and red chili. <br>
+                        It is often served with a spiced potato filling, chutney, sambar, and potato curry. <br>
+                        <i>Price: $10.49 </i>
+                    </p>
+                </article>
+                <hr>
+
+                <article class="menu-item-article">
+                    <figure>
+                        <img class="menu-item-img" src="https://palatesdesire.com/wp-content/uploads/2022/09/Mysore-masala-dosa-recipe@palates-desire.jpg" alt="Mysore Masala Dosa"/>
+                    </figure>
+                    <h3>Mysore Masala Dosa</h3>
+                    <p>
+                        Mysore masala dosa is a popular South Indian dish made from a fermented batter of rice and lentils. It is characterized by its crispy exterior and soft, fluffy interior. <br/>
+                        The dosa is typically filled with a spicy potato mixture and served with sambar and coconut chutney.<br/>
+                        <i>Price: $11.49</i>
+                    </p>
+                </article>
+                <br><hr>
+
+                <article class="menu-item-article">
+                    <figure>
+                        <img class="menu-item-img" src="https://iamstufft.com/wp-content/uploads/2019/07/IMG_1176.jpg" alt=""/>
+                    </figure>
+                    <h3>Idli & Sambar</h3>
+                    <p>
+                        Idli and sambar are a classic South Indian breakfast combination, where fluffy soft idli (savory steamed rice cakes) are served with a flavorful lentil and vegetable stew called sambar. <br/>
+                        This dish is popular for its comforting taste and nutritional benefits, making it a staple in many households. <br/>
+                        <i>Price: $9.50 </i>
+                    </p>
+                </article>
+                <hr>
+
+                <article class="menu-item-article">
+                    <figure>
+                        <img class="menu-item-img" src="https://www.indianveggiedelight.com/wp-content/uploads/2021/09/rava-paddu-featured.jpg" alt="Paddu"/>
+                    </figure>
+                    <h3>Paddu & Chutney</h3>
+                    <p>
+                        Paddu is a traditional South Indian dish, often served as a breakfast or snack, and is typically made with a fermented batter consisting of rice, lentils, and sometimes beaten rice. <br>
+                        It is shallow-fried in a special mold called a paddu mold or appe pan and is commonly served with chutneys like tomato-onion chutney or coconut chutney.<br>
+                        <i>Price: $7.49</i>
+                    </p>
+                </article>
+                <hr style="width: 100%;" />
+
+            </section>
+
+            <!-- Order Form -->
+            <section id="order-section">
+                <h2 id="order-form">Place your order</h2>
+                <form action="#" method="dialog">
+                    <label>Plain Dosa: </label><span></span>
+                    <input type="number" min="0" max="5" required><br><br>
+
+                    <label>Masala Dosa: </label>
+                    <input type="number" min="0" max="5" required><br><br>
+
+                    <label>Mysore Masala Dosa: </label>
+                    <input type="number" min="0" max="5" required><br><br>
+
+                    <label>Idli and Sambar: </label>
+                    <input type="number" min="0" max="5" required><br><br>
+
+                    <label>Idiyappam: </label>
+                    <input type="number" min="0" max="5" required><br><br>
+
+                    <label>Do you want extra utensils?</label>
+                    <input type="radio" name="option"> Yes
+                    <input type="radio" name="option" checked> No
+                    <br><br>
+
+                    <label>Do you want any add ons?</label><br>
+                    <input type="checkbox">Coconut Chutney
+                    <input type="checkbox">Coriander Chutney
+                    <input type="checkbox">Sambar
+                    <input type="checkbox">Filter Coffee
+                    <br><br>
+
+                    <label>Do you have any special request?</label><br/>
+                    <textarea rows="7" cols="50" maxlength="250"></textarea>
+                    <br><br>
+                    
+                    <input type="submit" value="Go to Checkout">
+                    <br><br>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer Section of the Restaurant Menu-->
+        <footer style="display: center;">
+            <p>Made with love by @adi1904</p>
+
+        </footer>
+    </body>
+</html>
