@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+/* Header CSS */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #033E54;
+  color: white;
+  padding: 1rem 2rem;
+  margin: auto;
+}
+
+/* Main CSS */
+
+main {
+    background-color: #FBEECB;
+    padding: 1rem 2rem;;
+    /*margin: auto;*/
+}
+
+nav li {
+    display: inline;
+    padding: 7px;
+    width: 25%;
+    border: solid 2px slategray;
+    color: white;
+    margin: 5px;
+}
+
+nav li:hover {
+    background-color: grey;
+    color: black;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+/* About Section CSS */
+
+#about > div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: center;
+}
+
+#about-img {
+    height: 35%;
+    width: 35%;
+    margin: 2%;
+    border: black solid 3px;
+    border-radius: 15px;
+}
+
+#about-content {
+    margin: 3%;
+    font-family: "Snell Roundhand", cursive;
+    font-weight: lighter;
+    font-size: large;
+}
+
+
+/* Review Section CSS */
+
+.book-card {
+    width: 85%;
+    display: block;
+    margin: auto;
+    padding: 2px;
+    font-family: 'Garamond', Serif;
+    font-weight: lighter;
+    font-size: large;
+}
+
+#book-img{
+    height: 45%;
+    width: 45%;
+    border: darkolivegreen solid 3px;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    display: block;
+    margin: auto;
+}
+
+main h1 {
+    font-size: xx-large;
+    margin: 0%;
+}
+
+.book-title {
+    text-decoration: underline solid 1.5px;
+    text-underline-offset: 2px;
+    text-decoration-skip-ink: auto;
+}
+
+
+/* Contact CSS */
+#contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin: auto;
+  font-size: larger;
+}
+
+#contact li {
+    display: inline;
+    padding: 7px;
+    width: 25%;
+    color: white;
+    margin: 5px;
+}
+
+#contact li:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.contact-link {
+    color: black;
+    text-decoration: none;
+}
+
+/* Footer CSS */
+footer {
+    text-align: center;
+    background-color: #033E54;
+    color: white;
+    padding: 3px 5px;
+
+}
