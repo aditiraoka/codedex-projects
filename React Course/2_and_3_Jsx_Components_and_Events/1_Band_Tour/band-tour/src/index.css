@@ -1,0 +1,252 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: #4a4a4a;
+  background-color: hsl(0, 0%, 90%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/*
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  height: 150px;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0 15px;
+  transition: ease-in-out 0.5s;
+}
+
+img:hover {
+  width: 300px;
+  height: 225px;
+  transition: ease-in-out 0.5s;
+}
+
+.not-read::before {
+  content: "🔴 ";
+}
+*/
+ /*15 - Trending
+
+body {
+  background: #000;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0 24px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.trending {
+  margin-top: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  width: 150px;
+  margin: 0 10px 20px 0;
+}
+
+.movie:hover {
+  border: 2px solid white;
+}
+
+.image-wrap {
+  height: 225px;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-info {
+  padding: 8px 0;
+}
+
+.movie-info h3 {
+  font-size: 16px;
+  margin: 0;
+}
+ */
+
+ /* 18 a-focus-in-art
+ .image-div {
+  width: 50%;
+  margin: auto;
+  margin-top: 30%;
+}
+
+.picture-frame {
+  border: 7px solid #fdd521;
+  padding: 10px;
+}
+
+.picture-frame img {
+  width: 100%;
+  display: block;
+}
+*/
+
+/* 19 key events 
+h1 {
+  font-size: 1.5rem;
+}
+
+#volume-bar-empty-space {
+  width: 200px;
+  height: 20px;
+  background-color: lightgray;
+  position: relative;
+  margintop: 10px;
+}
+
+#volume-bar {
+  height: 100%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+*/
+
+/*20 Waterfest */
+.container {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid grey;
+}
+
+.hero-image {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.hero-image img {
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  margin-top: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 16px;
+  color: #666;
+  text-align: left;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.interested-button,
+.going-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease-in-out,
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+.interested-button:hover,
+.going-button:hover {
+  background-color: #f0f0f0;
+}
+
+.interested-button.hovered,
+.going-button.hovered {
+  transform: scale(1.1);
+}
+
+.interested-button:focus,
+.going-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
